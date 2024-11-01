@@ -1,0 +1,48 @@
+/* hotline */
+
+.float-contact {
+    position: fixed;
+    bottom: 40px;
+    left: 10px;
+    z-index: 99999;
+    width: 70px;
+    }
+    .chat-zalo {
+    background: #8eb22b;
+    border-radius: 20px;
+    padding: 0 18px;
+    color: white;
+    display: block;
+    margin-bottom: 6px;
+    }
+    .chat-face {
+    background: #125c9e;
+    border-radius: 20px;
+    padding: 0 18px;
+    color: white;
+    display: block;
+    margin-bottom: 6px;
+    }
+    .float-contact .hotline {
+    background: #d11a59!important;
+    border-radius: 20px;
+    padding: 0 18px;
+    color: white;
+    display: block;
+    margin-bottom: 6px;
+    }
+    .chat-zalo a, .chat-face a, .hotline a {
+    font-size: 10px;
+    color: white;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 0;
+    }
+        .float-contact .chat-zalo:hover, .float-contact .chat-face:hover, .float-contact .hotline:hover{
+    box-shadow: -3px 2px 2px 1px #121111;
+    }
+    @media (max-width: 549px){
+    .float-contact{
+    display:none
+    }
+    }

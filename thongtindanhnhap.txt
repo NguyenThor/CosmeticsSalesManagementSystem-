@@ -1,0 +1,8 @@
+thông tin đăng nhập
+
+- Khách hàng:
+	Email: bang@gmail.com
+	Mật khẩu: 123
+- Admin:
+	Email: admin@gmail.com
+	Mật khẩu: 123
